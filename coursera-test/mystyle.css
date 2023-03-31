@@ -6,7 +6,8 @@
 }
 
 #s1{
-	position: relative;
+	
+	top: 0px;
 	border: 1px solid rgb(10, 9, 0);
 	width: 25%;
 	background-color: rgb(211, 159, 91);
