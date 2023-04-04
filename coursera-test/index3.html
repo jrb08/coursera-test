@@ -4,14 +4,54 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Menu</title>
-    
-    <link rel="stylesheet" href="css/mystyle2.css">
+    <title>Boo Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle3.css">
     
   </head>
 <body>
   <header>
- 
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1> Food, LLC </h1></a>
+            
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+			<div class="navbar-brand">
+			
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#s1">
+                <br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#s2">
+                <br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#s3">
+                <br class="hidden-xs"> Sushi</a>
+            </li>
+            
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
   </header>
   <h1>Our Menu</h1>
   <div class="row">
@@ -31,6 +71,9 @@
 		   </div>
 </div>
 
-
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
