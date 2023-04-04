@@ -17,8 +17,9 @@
 
 	border: 1px solid rgb(1, 0, 2);
 	width: auto;
-	background-color: rgb(178, 103, 210);
+	background-color: rgb(210, 103, 103);
 	text-align: center;
+
 }
 #s3{
 
@@ -26,10 +27,11 @@
 	width: 25%;
 	background-color: rgb(102, 115, 225);
 	text-align: center;
+
 }
 .col-lg-3{
 	margin-right: 20px;
-	margin-left: 20px;
+	margin-left: 2px;
 	background-color: rgb(228, 149, 58);
 	padding-top: 15px;
 	padding-bottom:15px;
